@@ -67,4 +67,9 @@ class AddFolder extends Component {
     );
   }
 }
+            
+AddFolder.propTypes = {
+  cancel: PropTypes.func.isRequired
+}
+
 export default AddFolder;
